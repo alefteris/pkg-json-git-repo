@@ -1,0 +1,7 @@
+{
+  "name": "no-git-repo",
+  "version": "0.0.0",
+  "repository": {
+    "type": "svn"
+  }
+}

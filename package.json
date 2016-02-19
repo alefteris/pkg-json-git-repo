@@ -1,0 +1,49 @@
+{
+  "name": "pkg-json-git-repo",
+  "version": "0.1.0",
+  "description": "Get the Git repo out of a package.json",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node test/index.js",
+    "cover": "istanbul cover test/index.js",
+    "ci": "npm run lint && npm run cover"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alefteris/pkg-json-git-repo.git"
+  },
+  "keywords": [
+    "package.json",
+    "git",
+    "repository",
+    "repo",
+    "remote"
+  ],
+  "author": {
+    "name": "Thanos Lefteris",
+    "email": "alefteris@gmail.com",
+    "url": "http://thanoslefteris.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greecejs/alefteris/pkg-json-git-repo/issues"
+  },
+  "homepage": "https://github.com/alefteris/pkg-json-git-repo#readme",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "dependencies": {
+    "read-package-json": "2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.1.0",
+    "istanbul": "^0.4.2",
+    "tape": "^4.4.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
