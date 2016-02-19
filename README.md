@@ -13,7 +13,9 @@ npm install pkg-json-git-repo
 ```js
 const pkgJsonGitRepo = require('pkg-json-git-repo');
 
-pkgJsonGitRepo('/path/to/package.json');
+pkgJsonGitRepo('/path/to/package.json')
+  .then(console.log)
+  .catch(console.error);
 // git+https://github.com/alefteris/pkg-json-git-repo.git
 ```
 

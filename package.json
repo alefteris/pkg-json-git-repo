@@ -1,6 +1,6 @@
 {
   "name": "pkg-json-git-repo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get the Git repo out of a package.json",
   "main": "index.js",
   "scripts": {
