@@ -36,7 +36,7 @@
     "index.js"
   ],
   "dependencies": {
-    "read-package-json": "2.0.3"
+    "read-package-json": "2.0.4"
   },
   "devDependencies": {
     "eslint": "^2.1.0",
